@@ -4,23 +4,25 @@ package number;
  *  among these three numbers.
  *  Here i am using ternary operator for find largest number.
  *
+ *.length() is a method of a String class and which returns the number of characters in the string. 
+ *.length will give the number of elements stored in an array. ... Array.length is a property of that Array ,
+ * similar to a variable reference. ArrayList.size() is an actual method call to the array list object
  * */
 public class Largest_Number {
 	public static void main(String args[])
 	{
 		int numberArray[]={45,2,30,46,7,90,88};  // we can take array form user using for loop
 
-		int size= numberArray.length;
 		System.out.println("Before Short Array is = ");
-		for(int i =0 ; i<=size-1 ; i++)
+		for(int i =0 ; i<=numberArray.length-1 ; i++)  // whenever you use <= then need length-1 other wise no need.
 		{
 			System.out.print(numberArray[i]);
 			System.out.print(" ");
 		}
 
-		for(int i =0 ; i<=size-1 ; i++)
+		for(int i =0 ; i<=numberArray.length-1 ; i++)
 		{
-				for(int j = i+1 ; j<=size-1 ; j++)
+				for(int j = i+1 ; j<=numberArray.length-1 ; j++)
 				{
 					if(numberArray[i]>numberArray[j])
 					{
@@ -34,13 +36,13 @@ public class Largest_Number {
 		}
 		System.out.println();
 		System.out.println("After short Array is =  ");
-		for(int i =0 ; i<=size-1 ; i++)
+		for(int i =0 ; i<=numberArray.length-1 ; i++)
 		{
 			System.out.print(numberArray[i]);
 			System.out.print(" ");
 		}
 		System.out.println();
-		System.out.print("Largest Number is = "+numberArray[size-1]);
+		System.out.print("Largest Number is = "+numberArray[numberArray.length-1]);
 		System.out.println();
 		System.out.print("Smallest Number is = "+numberArray[0]);
 

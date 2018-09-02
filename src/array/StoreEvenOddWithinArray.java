@@ -2,7 +2,7 @@ package array;
 
 
 /*
- * i want to 1 to 50 all even and odd in particulare array
+ * i want to 1 to 50 all even and odd in particular array
  * you know even means num%2==0 otherwise Odd
  * i need two array to store even and odd
  *

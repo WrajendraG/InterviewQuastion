@@ -1,7 +1,9 @@
 package number;
 /*
  * Problem:
- * Armstrong number is a number that is the sum of its own digits each raised to the power of the number of digits is equal to the number itself. In java programming you can easily write Armstrong Program in Java just follow same concept of C programming, only need to use syntax of java programming language.
+ * Armstrong number is a number that is the sum of its own digits each raised to the power of the number of digits is equal to the number itself.
+ *  In java programming you can easily write Armstrong Program in Java just follow same concept of C programming, 
+ *  only need to use syntax of java programming language.
 
 For example:
 Three Digits Armstrong number is 153, 1 ^ 3 + 5 ^ 3 + 3 ^ 3 = 153

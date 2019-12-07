@@ -10,53 +10,53 @@ package array;
 public class StoreEvenOddWithinArray {
 
 
-	public static void main(String[] args) {
+        public static void main(String[] args) {
 
-		int num=50;
-
-
-		int evenIndex=0,oddIndex=0;  //at the time store value in array index must be important;
-
-		int even[] = new int[num/2];   // whenever initilize array we should assinge memory for that using new keyword;
-		int odd[]=new int[num/2];
-
-						for(int i=1; i<=50 ; i++ )
-						{
-						//i!=1 } 1/2 = 0.25 =0 because of int So its possible to 1 store in even array and thats not correct.
-								if(i%2 == 0 && i !=1)  // != 1 means 1 is not a prime because prime always contain 2 factroial 1 and it self;
-								{
-									//System.out.print("from Even"+i);
-									even[evenIndex]=i;
-									evenIndex++;
+                int num=50;
 
 
-								}else{
-									//System.out.print("from Odd"+i);
-									odd[oddIndex]=i;
-									oddIndex++;
-								}
+                int evenIndex=0,oddIndex=0;  //at the time store value in array index must be important;
 
-							}
+                int even[] = new int[num/2];   // whenever initilize array we should assinge memory for that using new keyword;
+                int odd[]=new int[num/2];
 
-			System.out.println("Even Array is ");
-
-				for(int i=0;i<num/2;i++)
-				{
-					System.out.print(even[i]);
-					System.out.print(" ");
-				}
+                                                for(int i=1; i<=50 ; i++ )
+                                                {
+                                                //i!=1 } 1/2 = 0.25 =0 because of int So its possible to 1 store in even array and thats not correct.
+                                                                if(i%2 == 0 && i !=1)  // != 1 means 1 is not a prime because prime always contain 2 factroial 1 and it self;
+                                                                {
+                                                                        //System.out.print("from Even"+i);
+                                                                        even[evenIndex]=i;
+                                                                        evenIndex++;
 
 
-			System.out.println();
-				System.out.println("odd Array is ");
+                                                                }else{
+                                                                        //System.out.print("from Odd"+i);
+                                                                        odd[oddIndex]=i;
+                                                                        oddIndex++;
+                                                                }
 
-				for(int i=0; i<num/2;i++)
-				{
-					System.out.print(odd[i]);
-					System.out.print(" ");
-				}
+                                                        }
 
-	}
+                        System.out.println("Even Array is ");
+
+                                for(int i=0;i<num/2;i++)
+                                {
+                                        System.out.print(even[i]);
+                                        System.out.print(" ");
+                                }
+
+
+                        System.out.println();
+                                System.out.println("odd Array is ");
+
+                                for(int i=0; i<num/2;i++)
+                                {
+                                        System.out.print(odd[i]);
+                                        System.out.print(" ");
+                                }
+
+        }
 
 
 }

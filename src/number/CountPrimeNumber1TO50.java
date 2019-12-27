@@ -9,7 +9,7 @@ public class CountPrimeNumber1TO50 {
 	{
 		int count = 0;
 		 boolean isPrime=true;
-		for(int i=2; i<=10; i++)
+		for(int i=2; i<=100; i++)
 		{
 						for(int j=2;j<i-1;j++)
 						{

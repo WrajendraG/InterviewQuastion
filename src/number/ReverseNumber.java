@@ -25,7 +25,7 @@ public class ReverseNumber {
 		{
 			/*loop 1
 			 * example user input 123
-			 * check while condation it's gather then 0
+			 * check while condition it's gather then 0
 			 *  number mod 123%10 is 3
 			 *  reverse is zero initilizlly 10*0 = 0 and 0 + 3 = 3 so reverse store 3;
 			 *  123/10 = 12.3 because of datatype int that store only 12 so number is reduced */

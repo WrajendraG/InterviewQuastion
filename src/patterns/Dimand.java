@@ -1,4 +1,4 @@
-package pattren;
+package patterns;
 
 import java.util.Scanner;
 public class Dimand {

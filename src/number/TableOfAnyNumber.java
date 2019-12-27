@@ -2,7 +2,7 @@ package number;
 /*
  * problem :
  *
- * I want Multiplication of number means tabele
+ * I want Multiplication of number means table
  * first what you mean by table
  * example : 2
  * 2 * 1 = 2

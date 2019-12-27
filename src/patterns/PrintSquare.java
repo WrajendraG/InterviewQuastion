@@ -1,4 +1,4 @@
-package pattren;
+package patterns;
 
 public class PrintSquare {
 

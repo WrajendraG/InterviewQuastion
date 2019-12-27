@@ -7,7 +7,7 @@ import java.util.Scanner;
  * I want calculate sum of 4! = 1*2*3*4=24;
  * Firstly take input from user
  * rotate for loop upto that number
- * store multiplaction on global variable and multiply to next rotation
+ * store multiplication on global variable and multiply to next rotation
  *
  * */
 

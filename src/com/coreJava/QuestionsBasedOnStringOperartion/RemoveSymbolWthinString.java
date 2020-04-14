@@ -1,4 +1,4 @@
-package string;
+package com.coreJava.QuestionsBasedOnStringOperartion;
 
 /*
  * problem :

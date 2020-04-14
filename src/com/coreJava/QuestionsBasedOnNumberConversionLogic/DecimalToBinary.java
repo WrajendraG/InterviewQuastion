@@ -1,4 +1,4 @@
-package numberConversion;
+package com.coreJava.QuestionsBasedOnNumberConversionLogic;
 
 import java.util.Scanner;
 

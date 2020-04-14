@@ -1,4 +1,4 @@
-package number;
+package com.coreJava.QuestionsBasedOnNumberLogic;
 /*
  * Problem:
  * I want to reverse number 123 == 321

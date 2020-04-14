@@ -1,4 +1,4 @@
-package number;
+package com.coreJava.QuestionsBasedOnNumberLogic;
 /*
  * Problem:
  * Write a program in C which prints the numbers from 1 to 100.

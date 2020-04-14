@@ -1,4 +1,4 @@
-package patterns;
+package com.coreJava.QuestionsBasedOnArrayDifferentPatternsLogic;
 
 public class PrintSquare {
 

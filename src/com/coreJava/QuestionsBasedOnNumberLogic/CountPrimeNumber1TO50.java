@@ -1,4 +1,4 @@
-package number;
+package com.coreJava.QuestionsBasedOnNumberLogic;
 /*Just remember a prime number can only be divided by 1 and itself, so it only has two divisors.
  *  The first 10 prime numbers are 2,3,5,7,11,13,17,19,23 and 29. 
  *  Notice that number 2 is the only even prime number in the list

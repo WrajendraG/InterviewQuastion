@@ -1,4 +1,4 @@
-package patterns;
+package com.coreJava.QuestionsBasedOnArrayDifferentPatternsLogic;
 
 import java.util.Scanner;
 public class Dimand {

@@ -1,4 +1,4 @@
-package numberConversion;
+package com.coreJava.QuestionsBasedOnNumberConversionLogic;
 /*
  * Problem :
  * This code is design using two methods, create own logic and use predefined method.

@@ -1,4 +1,4 @@
-package number;
+package com.coreJava.QuestionsBasedOnNumberLogic;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

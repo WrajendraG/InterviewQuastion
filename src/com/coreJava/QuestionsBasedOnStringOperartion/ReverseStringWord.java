@@ -1,4 +1,4 @@
-package string;
+package com.coreJava.QuestionsBasedOnStringOperartion;
 
 import java.util.Scanner;
 

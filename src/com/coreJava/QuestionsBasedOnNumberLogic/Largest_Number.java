@@ -1,4 +1,4 @@
-package number;
+package com.coreJava.QuestionsBasedOnNumberLogic;
 /*
  * Input three number from user and compare these number with each others and find largest number
  *  among these three numbers.

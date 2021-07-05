@@ -1,6 +1,6 @@
 package com.coreJava.HashMapOperations;
 
-public class Student {
+public class WithoutHashCodeAndEqualMethod {
 
 	
 	private int rollNo;
@@ -8,18 +8,16 @@ public class Student {
 	private Float marks;
 	
 	
-	public Student() {
+	public WithoutHashCodeAndEqualMethod() {
 		
 	}
 	
-	public Student(int rollNo, String studName, Float marks) {
+	public WithoutHashCodeAndEqualMethod(int rollNo, String studName, Float marks) {
 		super();
 		this.rollNo = rollNo;
 		StudName = studName;
 		this.marks = marks;
 	}
-	
-
 
 	public int getRollNo() {
 		return rollNo;

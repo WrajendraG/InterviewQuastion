@@ -67,6 +67,8 @@ public class Equal_HashCodeMetOverriding {
 //case 2
 		WithEqualAndHashCodeMethod object9= new WithEqualAndHashCodeMethod(231,"ABCD",54.50f); // here Map consider this is two diff obj
 
+		WithEqualAndHashCodeMethod object10= new WithEqualAndHashCodeMethod(231,"ABCD",54.50f);
+		
 		Map<WithEqualAndHashCodeMethod, String> hashMapStudentObj4= new HashMap<>();
 		
 		hashMapStudentObj4.put(object7, "1_Rajendra_60.50f");

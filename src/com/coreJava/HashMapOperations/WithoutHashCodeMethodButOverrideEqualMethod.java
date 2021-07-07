@@ -1,6 +1,6 @@
 package com.coreJava.HashMapOperations;
 
-public class WithoutHashCodeMethodButOverrideEqualMethod {
+public class WithoutHashCodeMethodButOverrideEqualMethod  {
 
 	
 	private int empId;

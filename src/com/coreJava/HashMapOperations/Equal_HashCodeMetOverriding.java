@@ -53,7 +53,7 @@ public class Equal_HashCodeMetOverriding {
 		hashMapStudentObj3.put(object6, "object6_Value_6");
 	
 		System.out.println();
-		System.out.println("====== With HashCode without override Equal Method ======");
+		System.out.println("====== Without equal  with override HashCode Method ======");
 		System.out.println("Both Objects are Equal: "+object5.equals(object6));
 		System.out.println("object 5 Hashcode: "+object5.hashCode());
 		System.out.println("object 6 Hashcode: "+object6.hashCode());
@@ -64,24 +64,28 @@ public class Equal_HashCodeMetOverriding {
 		
 		WithEqualAndHashCodeMethod object7= new WithEqualAndHashCodeMethod(1,"Rajendra",60.50f);
 		WithEqualAndHashCodeMethod object8= new WithEqualAndHashCodeMethod(1,"Rajendra",60.50f); // here Map consider this is two diff obj
+		
+		WithEqualAndHashCodeMethod object11= new WithEqualAndHashCodeMethod(1,"Rajendra",60.50f);
 //case 2
 		WithEqualAndHashCodeMethod object9= new WithEqualAndHashCodeMethod(231,"ABCD",54.50f); // here Map consider this is two diff obj
 
-		WithEqualAndHashCodeMethod object10= new WithEqualAndHashCodeMethod(231,"ABCD",54.50f);
+		//WithEqualAndHashCodeMethod object10= new WithEqualAndHashCodeMethod(231,"ABCD",54.50f);
 		
 		Map<WithEqualAndHashCodeMethod, String> hashMapStudentObj4= new HashMap<>();
 		
 		hashMapStudentObj4.put(object7, "1_Rajendra_60.50f");
-		hashMapStudentObj4.put(object9, "231_ABCD_54.50f");  // check problem here 
+		hashMapStudentObj4.put(object9, "231_ABCD_54.50f");  // check problem here prob Solved due to copy past getter and setter and orrided problum occur.
+		hashMapStudentObj4.put(object11, "231_Af"); 
 		hashMapStudentObj4.put(object8, "1_Rajendra_60.50fLastUpdated");
 	
 		System.out.println();
 		System.out.println("====== With HashCode and Equal Method ======");
 		System.out.println("Both 7 & 8 Objects are Equal: "+object7.equals(object8));
-		System.out.println("Both 7& 9 Objects are Equal: "+object7.equals(object9));
+		System.out.println("Both 7& 9 Objects are Equal: "+object8.equals(object9));
 		System.out.println("object 7 1_Rajendra_60.50f Hashcode: "+object7.hashCode());
 		System.out.println("object 8 1_Rajendra_60.50fLastUpdated Hashcode: "+object8.hashCode());
-		System.out.println("object 9  231_ABCD_54.50f Hashcode: "+object8.hashCode());
+		System.out.println("object 9  231_ABCD_54.50f Hashcode: "+object9.hashCode());
+		System.out.println("Map Size: "+hashMapStudentObj4.size());
 		System.out.println("Map Size: "+hashMapStudentObj4.size());
 		hashMapStudentObj4.forEach((k, v) -> System.out.println("Key is: " + k + " Value is: " + v));
 		

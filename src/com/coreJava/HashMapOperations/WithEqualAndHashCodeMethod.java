@@ -5,8 +5,9 @@ public class WithEqualAndHashCodeMethod {
 	private int empId;
 	private String empName;
 	private Float salary;
-	
-	public WithEqualAndHashCodeMethod(int i, String string, float f){}
+	public int getEmpId() {
+		return empId;
+	}
 	
 	public WithEqualAndHashCodeMethod(int empId, String empName, Float salary) {
 		super();
@@ -14,11 +15,7 @@ public class WithEqualAndHashCodeMethod {
 		this.empName = empName;
 		this.salary = salary;
 	}
-	
 
-	public int getEmpId() {
-		return empId;
-	}
 	public void setEmpId(int empId) {
 		this.empId = empId;
 	}
@@ -34,7 +31,6 @@ public class WithEqualAndHashCodeMethod {
 	public void setSalary(Float salary) {
 		this.salary = salary;
 	}
-
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -44,7 +40,6 @@ public class WithEqualAndHashCodeMethod {
 		result = prime * result + ((salary == null) ? 0 : salary.hashCode());
 		return result;
 	}
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -68,6 +63,8 @@ public class WithEqualAndHashCodeMethod {
 			return false;
 		return true;
 	}
+	
+	
 	
 
 }
